@@ -1,0 +1,16 @@
+[package]
+name = "asyncs"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.4"
+color-eyre = "0.5.11"
+crossbeam = "0.8.1"
+futures = {version = "0.3.16", features = ["std", "thread-pool"]}
+mio = "0.7.13"
+rcgen = "0.8.13"
+rustls = "0.19.1"
+url = "2.2.2"
